@@ -49,25 +49,16 @@
                         materialDesign:ButtonAssist.CornerRadius="16"
                         Height="40"
                         Width="120"
-                    Content="Open" Click="LoginButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-
-            <Button x:Name="InfoButton"
-                    Style="{StaticResource MaterialDesignRaisedButton}"
-                    materialDesign:ButtonAssist.CornerRadius="16"
-                    Width="120"
-                    Height="40"
-                    Margin="0 10 0 0"
-                    Content="FAQ"
-                    Click="InfoButton_Click"/>
+                    Content="Open" Click="LoginButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,8,0,0" Cursor="Hand"/>
 
             <Button x:Name="CloseButton"
                     Style="{StaticResource MaterialDesignRaisedButton}"
                     materialDesign:ButtonAssist.CornerRadius="16"
                     Width="120"
                     Height="40"
-                    Margin="0 10 0 0"
+                    Margin="0,74,0,0"
                     Content="Close"
-                    Click="CloseButton_Click"/>
+                    Click="CloseButton_Click" Cursor="Hand"/>
         </StackPanel>
     </Grid>
 </Window>
